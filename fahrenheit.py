@@ -20,11 +20,8 @@ def temperature():
     except Exception:
         print("Please input a number, and have it be positive")
     else:
-        if (celsius > 0):
-            fahrenheit = (9/5)*celsius+32
-            print("The fahrenheit is {}".format(fahrenheit))
-        else:
-            print("Please input a positive value")
+        fahrenheit = (9/5)*celsius+32
+        print("The fahrenheit is {}".format(fahrenheit))
 
 
 def main():
