@@ -28,7 +28,8 @@ def temperature():
 
 
 def main():
-    # This function calls the main functions
+    # This function calls the the specified functions
+
     temperature()
 
 
